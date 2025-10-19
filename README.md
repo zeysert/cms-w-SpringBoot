@@ -30,6 +30,8 @@ cd my-strapi-project
 npm run develop
 
 
+---
+
 API endpoint örneği:
 http://localhost:1337/api/posts
 

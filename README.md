@@ -28,3 +28,15 @@ Bu proje, **Strapi Headless CMS**'den gelen JSON verilerini alarak
 ```bash
 cd my-strapi-project
 npm run develop
+
+
+API endpoint örneği:
+http://localhost:1337/api/posts
+
+🔑 Config (application.properties)
+server.port=8081
+strapi.api.base-url=http://localhost:1337/api
+strapi.api.token=YOUR_API_TOKEN_HERE
+
+{"data":[],"meta":{"pagination":{"page":1,"pageSize":25,"pageCount":0,"total":0}}}
+
